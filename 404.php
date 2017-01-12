@@ -23,5 +23,7 @@
 			<?php get_sidebar(); ?>
 		</div>
 	</div>
+	<!-- TEST -->
 
 <?php get_footer(); ?>
+
