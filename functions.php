@@ -531,6 +531,9 @@ class campaign_widget extends WP_Widget
         // Frontend display HTML
         echo $args['before_widget'];
         $width = ($instance['contributed'] / $instance['goal']) * 100;
+        if ($width>100) {
+            $width=100;
+        } 
 
         ?>
             <div class="campaign-tracker">
